@@ -7,8 +7,12 @@ We will also apply smoothing techniques to make it more usable.
 Libraries we have used:-
 
 OpenCV:-  OpenCV is used for  image processing and drawing.
-Autopy:- For controlling the mouse movements and for        performing clicks. Autopy have several function which will control the mouse movements.
+
+Autopy:- For controlling the mouse movements and for  performing clicks. Autopy have several function which will control the mouse movements.
+
 Numpy :- Numpy is used to perform certain mathematical calculations and for working with arrays. 
+
 Time:- Used to calculate FPS (Frames per Second).
+
 
 
