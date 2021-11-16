@@ -4,6 +4,23 @@ For cursor movement we will use our index finger
 For performing click we will take index and middle finger together.
 We will also apply smoothing techniques to make it more usable. 
 
+Steps to be followed:-
+
+Step 1: We will very first find the hand landmarks and finger tips.
+
+Step 2: We will find the tip of the index and middle fingers.
+
+Step 3: We will check which fingers are up.
+
+Step 4: We will check whether our virtual mouse is currently in moving mode or clicking mode
+
+Step 5: If only index finger is up then our virtual mouse is in moving mode and we can move our mouse with our index finger tip with the help of autopy.
+
+Step 6: If both index finger and middle fingers are up then our virtual mouse is in clicking mode.
+
+Step 7: For clicking we will move our index and middle fingers closer to each other.
+
+
 Libraries we have used:-
 
 OpenCV:-  OpenCV is used for  image processing and drawing.
